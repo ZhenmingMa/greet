@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: greet
-  namespace: kube-ops
+  namespace: test-devops
   labels:
     app: greet
 spec:

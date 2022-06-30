@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: greet
-        image: 1111
+        image: mazhenming/greet
         lifecycle:
           preStop:
             exec:
